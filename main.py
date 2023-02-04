@@ -5,7 +5,7 @@ import va
 
 recognizer = sr.Recognizer()
 
-BOT_NAMES = ['marvin', 'marlin', 'mavin', 'marli', 'martin', "mommy" ]
+BOT_NAMES = []
 
 def record_audio():
   with sr.Microphone() as source:
