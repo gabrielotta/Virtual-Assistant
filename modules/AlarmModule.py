@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta
 
 # TEXT_TO_SECONDS = { "um minuto": 60, "" }
 unities_to_secs = { "horas": 3600, "hora": 3600, "minuto": 60, "minutos": 60, "segundos": 1, "segundo": 1 }
-ALARM_SOUND = AudioSegment.from_wav("modules/alarm.wav")
+#ALARM_SOUND = AudioSegment.from_wav("modules/alarm.wav")
 
 class CountdownTask:
   def __init__(self, purpose):
